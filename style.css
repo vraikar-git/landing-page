@@ -1,0 +1,159 @@
+li {
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+    color:#e5e7eb;
+    margin: 3px;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    background-color: #1f2937;
+    padding: 5px 50px;
+}
+
+.header h3 {
+    font-size: 24px;
+    color:#f9faf8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    background-color: #1f2937;
+    padding: 10px 50px;
+    padding-bottom: 70px;
+}
+
+.inside-main {
+    flex:1;
+    
+}
+
+.inside-main h1 {
+    margin:auto;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.inside-main p {
+    text-align: left;
+    padding-right: 50px;
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+#image_one {
+    flex: 1;
+    border:5px solid red;
+    text-align: center;
+    padding: 70px 0;
+    background-color: gainsboro;
+   
+}
+
+
+.image_rack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#images {
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+
+    
+}
+
+.imgtext > * {
+    height: 150px;
+    width: 150px;
+
+}
+
+.imgtext img {
+    border-radius: 30px;
+    border-color: #abc7f3;
+    
+}
+
+.imgtext div {
+    text-align: center;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px ;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+.quote-name {
+    align-self: flex-end;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #f9faf8;
+    font-size: 18px;
+    
+}
+
+.last div {
+   
+    background-color: #3882f6;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.signup {
+    display:flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: flex-end;
+    
+    
+}
+
+.signup button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: white;
+    align-self: center;
+    width: 100px;
+    height:25px;
+    color: #f9faf8;
+    font-size: 10px;
+    
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+}
