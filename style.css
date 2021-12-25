@@ -60,12 +60,25 @@ body {
     color:#e5e7eb;
 }
 
+.inside-main button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    /* border-color: white; */
+    align-self: center;
+    /* width: 60px;
+    height:25px; */
+    color: #f9faf8;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px 20px;
+}
+
 #image_one {
     flex: 1;
-    border:5px solid red;
+    
     text-align: center;
     padding: 70px 0;
-    background-color: gainsboro;
+    background-color: #74777a;
    
 }
 
